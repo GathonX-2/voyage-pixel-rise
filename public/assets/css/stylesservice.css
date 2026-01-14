@@ -1,0 +1,187 @@
+/*------------------------------ Réservation de Vols -----------------------------*/
+.text-orange {
+    color: #FFA500;
+}
+
+.bg-orange {
+    background-color: #FFA500;
+}
+
+.card {
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+
+/*------------------------------ Galerie -----------------------------*/
+
+.text-orange {
+    color: #FFA500;
+}
+
+.btn-orange {
+    background-color: #FFA500;
+    border: none;
+}
+
+.btn-orange:hover {
+    background-color: #e69500;
+    transition: all 0.3s ease;
+}
+
+.img-fluid {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.rounded {
+    border-radius: 10px !important;
+}
+
+.shadow-sm {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .col-lg-6 {
+        text-align: center;
+    }
+
+    .col-lg-6 img {
+        margin-bottom: 10px;
+    }
+}
+
+/*------------------------------ Découvrez les Merveilles du Monde -----------------------------*/
+/* Encapsulation spécifique pour cette section */
+.row-fix-centered {
+    text-align: center;
+    padding: 20px;
+}
+
+.row-fix-centered h2 {
+    color: #FFA500;
+    /* Couleur de votre thème */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.row-fix-centered p {
+    color: white;
+    /* Gris doux pour le texte */
+    margin-bottom: 30px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.row-fix-centered .btn-orange {
+    background-color: #FFA500;
+    color: white;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    /* Bouton arrondi */
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Ombre par défaut */
+}
+
+.row-fix-centered .btn-orange:hover {
+    background-color: #e69500;
+    /* Couleur plus sombre au survol */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    /* Effet d'ombre au survol */
+}
+
+@media (max-width: 768px) {
+    .row-fix-centered h2 {
+        font-size: 1.8rem;
+    }
+
+    .row-fix-centered p {
+        font-size: 1rem;
+    }
+
+    .row-fix-centered .btn-orange {
+        width: 100%;
+        /* Bouton plein écran sur mobile */
+        padding: 10px 20px;
+    }
+}
+
+/*------------------------------ FAQ -----------------------------*/
+
+/* Section générale */
+.faq-section {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Titre et sous-titre */
+.faq-title {
+    color: #FFA500;
+}
+
+.faq-subtitle {
+    color: #6c757d;
+}
+
+/* Style des questions et réponses */
+.faq-accordion .faq-item {
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #eaeaea;
+}
+
+.faq-accordion .faq-button {
+    text-decoration: none;
+    color: #FFA500;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-align: left;
+    white-space: normal;
+    /* Permet à la question de revenir à la ligne */
+    word-wrap: break-word;
+    /* Permet au texte de se couper proprement */
+    padding: 15px;
+    /* Espacement interne pour éviter l'écrasement */
+}
+
+.faq-accordion .faq-button:hover {
+    color: #e69500;
+}
+
+.faq-accordion .card-body {
+    padding: 15px;
+    color: #6c757d;
+    font-size: 0.95rem;
+}
+
+.shadow-sm {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* Ombre subtile */
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+    .faq-title {
+        font-size: 1.8rem;
+    }
+
+    .faq-button {
+        font-size: 1rem;
+    }
+
+    .card-body {
+        font-size: 0.9rem;
+    }
+}
